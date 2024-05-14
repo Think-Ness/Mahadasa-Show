@@ -123,7 +123,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +441,7 @@ footer .credit a {
   }
 
   .hero {
-    background-image: url("../img/header-bg1.jpg");
+    background-image: url("../img/header.jpg");
   }
 
   .navbar .navbar-nav {
