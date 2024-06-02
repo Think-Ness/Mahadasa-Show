@@ -1,5 +1,3 @@
-feather.replace();
-
 // toggle class active
 const navbarNav = document.querySelector(".navbar-nav");
 // Keyka menu diklik
