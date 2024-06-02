@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary:  #38473c;
   --bg: #010101;
 }
 
@@ -20,6 +20,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
+}
+
+.content{
+  background-color: rgba(1, 1, 1, 0.8);
+  /* border-radius: 20px; */
 }
 
 /* Navbar */
@@ -123,7 +128,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/header2.jpg");
+  background-image: url("../MHD/Bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +446,7 @@ footer .credit a {
   }
 
   .hero {
-    background-image: url("../img/header.jpg");
+    background-image: url("../MHD/Bg2.JPG");
   }
 
   .navbar .navbar-nav {
