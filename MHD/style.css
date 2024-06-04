@@ -244,6 +244,7 @@ body {
 }
 
 /* menu section */
+
 .menu-kami h2 {
   margin-bottom: 1rem;
 }
@@ -253,23 +254,24 @@ body {
   text-align: center;
   max-width: 30rem;
   margin: auto;
-  font-weight: 100;
+  /* font-weight: 100; */
   line-height: 1.6;
 }
 
 .menu-kami {
-  /* background-color: var(--primary2); */
+  text-align: center;
 }
+
 .menu-kami .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 3rem;
   justify-content: center;
 }
 
 .menu-kami .row .menu-card {
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .menu-kami .row .menu-card img {
@@ -287,12 +289,15 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
   margin-top: 4rem;
+  /* width: 10%; */
 }
 
 .product .product-card {
+  /* border-radius: 10px; */
+  /* background-color: var(--primary2); */
   text-align: center;
-  border: 1px solid #666;
-  padding: 2rem;
+  border: 1px solid var(--primary);
+  padding: 1rem;
 }
 
 .product .product-icons {
