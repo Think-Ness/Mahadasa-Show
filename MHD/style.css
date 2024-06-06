@@ -383,7 +383,7 @@ audio {
 
 .carousel {
   position: relative;
-  height: 550px;
+  /* height: 600px; */
   perspective: 1500;
 }
 
