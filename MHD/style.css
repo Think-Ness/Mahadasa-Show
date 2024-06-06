@@ -304,8 +304,9 @@ audio {
   /* border-radius: 10px; */
   /* background-color: var(--primary2); */
   text-align: center;
-  border: 1px solid var(--primary);
-  padding: 1rem;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
 }
 
 .product .product-icons {
@@ -336,7 +337,9 @@ audio {
 }
 
 .product .product-img img {
-  height: 25rem;
+  /* height: 10%; */
+  width: 100%;
+  border-radius: 10px
 }
 
 .product .product-content h3 {
@@ -361,6 +364,36 @@ audio {
   text-decoration: line-through;
   font-weight: lighter;
   font-size: 1rem;
+}
+
+/* Slide Poto */
+
+.carousel-box{
+  position: relative;
+  /* min-width: 950px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: var(--bg2); */
+}
+
+.carousel {
+  position: relative;
+  height: 550px;
+  perspective: 1500;
+}
+
+.carousel .carousel-item {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.carousel .carousel-item img{
+  max-width:  235px;
+  transform: translateX(8px) translateY(-100px);
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 /* kontak section */
