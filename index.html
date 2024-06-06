@@ -6,6 +6,7 @@
     <title>Mahadasa Show</title>
 
     <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,7 +57,7 @@
         <p>
           Pondok Modern Darussalam Gontor Ponorogo
         </p>
-        <a href="https://drive.google.com/file/d/1lbHTIr5pUvVKXArxdRkaQwEk1ljBDpp6/view?usp=sharing" class="cta"><b>Lihat</b> <i>Guide Book</i></a>
+        <a href="https://drive.google.com/file/d/1lbHTIr5pUvVKXArxdRkaQwEk1ljBDpp6/view?usp=sharing" class="cta"><b>Lihat Buku Petunjuk</b></a>
       </main>
     </section>
     <!-- hero section end -->
@@ -74,7 +75,7 @@
           <p>
             Mahadasa adalah acara yang diselenggarakan oleh Dewan Mahasiswa dengan tujuan untuk menggali potensi diri para mahasiswa Universitas Darussalam Gontor dalam bidang seni. Kegiatan tahunan PMDG ini juga merupakan wujud apresiasi seni para mahasiswa Universitas Darussalam Gontor untuk menuangkan kreativitas dalam panggung.
           </p>
-          <h1>🎵 Semoga Tetap Bersama</h1>
+          <h5>🎵 Semoga Tetap Bersama</h5>
           <audio autoplay controls src="MHD/OST.mp3"></audio>
         </div>
       </div>
@@ -87,7 +88,7 @@
       <p>
         Layaknya garis Spektrum yang menggabungkan antara 2 objek yang berbeda menjadi satu lingkaran utuh, Mahadasa Show diharap dapat menjadi pemersatu seluruh golongan melalui sebuah karya seni.
       </p>
-      <h1 class="menu-card-title">- Mahadasa Show -</h1>
+      <h5 class="menu-card-title">- Mahadasa Show -</h5>
       <div class="row">
         <div class="menu-card">
           <img src="MHD/Logo2.png" alt="Expresso" class="menu-card-img" />
@@ -102,8 +103,8 @@
       <div class="row">
         <div class="menu-card">
           <img src="MHD/Leg.png" alt="Expresso" class="menu-card-img" />
-          <h1 class="menu-card-title">- Persatuan Untuk Warisan
-            -</h1>
+          <h5 class="menu-card-title">- Persatuan Untuk Warisan
+            -</h5>
           <p class="menu-card-price">Dengan bermotokan <i>"Gala Persatuan, Tuk Wariskan Kejayaan" </i> Persatuan asas dari sebuah kejayaan. Meski dihadapkan dengan beragam perbedaan, solidaritas dan kebersamaan tetap harus senantiasa dijunjung tinggi. Semuanya tetap harus Bersatu untuk mencapai sebuah tujuan yang sama, yaitu kejayaan yang akan diwariskan untuk generasi-generasi selanjutnya.
           </p>
         </div>
@@ -115,37 +116,43 @@
     <section class="product" id="product">
       <h2><span>Acara</span> Mahadasa</h2>
       <p> </p>
-
+<!-- 
       <div class="row">
         <div class="product-card">
           <div class="product-img">
             <img src="MHD/Acara1.jpg" alt="product 1" />
-          </div>
-          
+          </div>  
           <div class="product-content">
-            <h3>Puisi</h3>
+            <h3></h3>
           </div>
         </div>
         <div class="product-card">
           <div class="product-img">
-            <img src="MHD/Bg1.jpg" alt="product 1" />
-          </div>
-
+            <img src="MHD/Acara1.jpg" alt="product 1" />
+          </div>  
           <div class="product-content">
-            <h3>Vocal Group</h3>
+            <h3></h3>
           </div>
         </div>
-        <div class="product-card">
-          <div class="product-img">
-            <img src="MHD/Bg1.jpg" alt="product 1" />
-          </div>
+      </div> -->
 
-          <div class="product-content">
-            <h3>Vocal Group</h3>
-          </div>
+
+
+    </section>
+    <div class="carousel-box">
+      <div class="carousel">
+        <div class="carousel-item">
+            <img src="MHD/Acara1.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="MHD/Acara1.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="MHD/Acara1.jpg" alt="">
         </div>
       </div>
-    </section>
+    </div>
+
     <!-- product section end -->
 
     <!-- kontak section start -->
@@ -204,12 +211,20 @@
     </footer>
     <!-- footer end -->
 
-    <!-- Icon -->
-    <script>
-      feather.replace();
-    </script>
+
 
     <!-- my Javascriipt -->
     <script src="MHD/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Icon -->
+        <script>
+          feather.replace();
+    
+          $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+          
+        </script>
   </body>
 </html>
